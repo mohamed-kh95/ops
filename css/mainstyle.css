@@ -60,7 +60,7 @@ header {
     position: relative;
 }
 .search .choose:before {
-    font-family: 'fontAwesome';
+    font-family: FontAwesome;
     content: '\f0dd';
     position: absolute;
     top: 20%;
@@ -258,7 +258,7 @@ header {
     position: relative;
 }
 .add .choose:before {
-    font-family: 'fontAwesome';
+    font-family: FontAwesome;
     content: '\f0dd';
     position: absolute;
     top: 13%;
