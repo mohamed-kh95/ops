@@ -1,0 +1,90 @@
+header {
+    height: 70vh;
+}
+.form {
+    padding: var(--mainPadding);
+    background-color: #f5f5f5;
+    
+}
+.form .form-content {
+    box-shadow: 0px 2px 7px  #333;
+    overflow: hidden;
+}
+.form .form-img {
+    background: linear-gradient(180deg, rgba(208,70,93,1) 50%, rgba(255,139,92,1) 100%);
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form  .form-container {
+    background-color: #FFF;
+    padding: 50px 30px;
+}
+.form form input,
+.form form input:focus {
+    background-color: var(--redColor);
+    color: #FFF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 35px;
+    display: block;
+    height: 50px;
+    margin-bottom: 40px;
+    outline: none;
+    box-shadow: none;
+}
+.form form .form-group {
+    position: relative;
+}
+.form form .name:before {
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    font-family: 'fontAwesome';
+    content: '\f007';
+    color: #FFF;
+    display: inline-block;
+    z-index: 10;
+    font-size: 20px;
+}
+.form form .password:before {
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    font-family: 'fontAwesome';
+    content: '\f023';
+    color: #FFF;
+    display: inline-block;
+    z-index: 10;
+    font-size: 20px;
+}
+.form form input::placeholder {
+    color: #FFF;
+}
+.form form .submit {
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+    background-color: var(--redColor);
+    color: #FFF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 35px;
+    display: block;
+    height: 50px;
+    margin-bottom: 40px;
+    outline: none;
+    box-shadow: none;
+}
+.form form .submit:hover {
+    color: #FFF;
+}
+.links a,
+.notice {
+    color: var(--redColor);
+}
+.notice i {
+    color: var(--orColor);
+}

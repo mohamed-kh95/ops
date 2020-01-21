@@ -1,0 +1,101 @@
+:root {
+    --orColor : #ff8b5c;
+    --redColor : #d04d5d;
+    --mainPadding : 50px 0px;
+    --grayColor: #f5f5f5;
+    --mainTrans: all .3s ease-in-out;
+}
+body {
+    font-family: 'Cairo', kufi , Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+footer {
+    background-color: var(--redColor);
+    padding: var(--mainPadding);    
+}
+footer .footer-title {
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 25px;
+}
+@media (max-width: 992px) {
+    footer .footer-title {
+        width: 50%;
+        display: block;
+    }
+    footer .footer-text {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    footer .footer-title {
+        width: 30%;
+    }
+}
+footer .footer-title img {
+    display: block;
+    width: 100%;
+}
+footer .footer-title img:last-of-type {
+    left: 50%;
+    width: 20%;
+    position: absolute;
+    bottom: -20%;
+}
+footer .footer-text {
+    color: #FFF;
+    font-size: 18px;
+}
+footer .links {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+footer .links a {
+    color: #FFF;
+    text-decoration: none;
+}
+footer .links a:hover {
+    color: var(--orColor);
+    transition: var(--mainTrans);
+}
+footer .icons {
+    margin-top: 25px;
+    text-align: center;
+}
+footer .icons .icon {
+    color: #FFF;
+    font-size: 24px;
+}
+footer .download {
+    margin-top: 25px;
+    text-align: center;
+}
+footer .download .h5 {
+    color: #FFF;
+    margin-bottom: 10px;
+}
+footer .download .downicons .icon {
+    color: var(--redColor);
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+footer .download .downicons .icon:hover {
+    color: #FFF;
+    background-color: var(--orColor);
+    transition: var(--mainTrans);
+}
+footer .download .downicons .icon:hover .fab {
+    color: var(--redColor);
+}
+footer .download .downicons .icon .fab {
+    color: var(--orColor);
+    font-size: 24px;
+}
